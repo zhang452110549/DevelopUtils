@@ -1,0 +1,38 @@
+.settings/
+## .gitignore for Grails 1.2 and 1.3
+
+# .gitignore for maven
+target/
+*.releaseBackup
+
+# web application files
+#/web-app/WEB-INF
+
+# IDE support files
+/.classpath
+/.launch
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+## .gitignore for eclipse
+
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.project
